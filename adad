@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+		<style></style>
+		<script>
+    
+    const numbers = [3,4,5,6];  const addNumbers = [...numbers].map(number => number + 1); 
+    
+    function logArray()
+    {   
+      console.log(addNumbers); 
+    }
+
+
+			
+		</script>
+	</head>
+	<body onload = "initialize();">
+	<hr />
+	<button onclick = "logArray();">Log Array</button>
+	</body>
+</html>
